@@ -1,0 +1,104 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Tmds.DBus/0.20.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Tmds.DBus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Tmds.DBus.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tmds.DBus/0.20.0": {
+      "sha512": "zbWoimlpWKBIyc9JqNr26f0pnJ7W5M78XCks0J02qXEQykWzIgzR3ZCIO7yZyeqww+Oz2Jh+62GnkErNLyIG9w==",
+      "type": "package",
+      "path": "tmds.dbus/0.20.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/Tmds.DBus.dll",
+        "lib/net6.0/Tmds.DBus.xml",
+        "lib/netstandard2.0/Tmds.DBus.dll",
+        "lib/netstandard2.0/Tmds.DBus.xml",
+        "tmds.dbus.0.20.0.nupkg.sha512",
+        "tmds.dbus.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Tmds.DBus >= 0.20.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/daniliammo/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/daniliammo/RiderProjects/SkyNet/SkyNet/SkyNet.csproj",
+      "projectName": "SkyNet",
+      "projectPath": "/home/daniliammo/RiderProjects/SkyNet/SkyNet/SkyNet.csproj",
+      "packagesPath": "/home/daniliammo/.nuget/packages/",
+      "outputPath": "/home/daniliammo/RiderProjects/SkyNet/SkyNet/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/daniliammo/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "Tmds.DBus": {
+            "target": "Package",
+            "version": "[0.20.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

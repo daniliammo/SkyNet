@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5vXEsbi1zYEuJNS5NA9Xa+06W5P12Qhi1+i8ks4C4DxNRy4WpI8vqO/yGyEA7zC70lWlIL759jQvj8X+Jx3diQ==",
+  "success": true,
+  "projectFilePath": "/home/daniliammo/RiderProjects/SkyNet/SkyNet/SkyNet.csproj",
+  "expectedPackageFiles": [
+    "/home/daniliammo/.nuget/packages/tmds.dbus/0.20.0/tmds.dbus.0.20.0.nupkg.sha512"
+  ],
+  "logs": []
+}

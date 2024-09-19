@@ -1,0 +1,17 @@
+/home/daniliammo/RiderProjects/SkyNet/SkyNet/bin/Debug/net8.0/SkyNet
+/home/daniliammo/RiderProjects/SkyNet/SkyNet/bin/Debug/net8.0/SkyNet.deps.json
+/home/daniliammo/RiderProjects/SkyNet/SkyNet/bin/Debug/net8.0/SkyNet.runtimeconfig.json
+/home/daniliammo/RiderProjects/SkyNet/SkyNet/bin/Debug/net8.0/SkyNet.dll
+/home/daniliammo/RiderProjects/SkyNet/SkyNet/bin/Debug/net8.0/SkyNet.pdb
+/home/daniliammo/RiderProjects/SkyNet/SkyNet/obj/Debug/net8.0/SkyNet.GeneratedMSBuildEditorConfig.editorconfig
+/home/daniliammo/RiderProjects/SkyNet/SkyNet/obj/Debug/net8.0/SkyNet.AssemblyInfoInputs.cache
+/home/daniliammo/RiderProjects/SkyNet/SkyNet/obj/Debug/net8.0/SkyNet.AssemblyInfo.cs
+/home/daniliammo/RiderProjects/SkyNet/SkyNet/obj/Debug/net8.0/SkyNet.csproj.CoreCompileInputs.cache
+/home/daniliammo/RiderProjects/SkyNet/SkyNet/obj/Debug/net8.0/SkyNet.dll
+/home/daniliammo/RiderProjects/SkyNet/SkyNet/obj/Debug/net8.0/refint/SkyNet.dll
+/home/daniliammo/RiderProjects/SkyNet/SkyNet/obj/Debug/net8.0/SkyNet.pdb
+/home/daniliammo/RiderProjects/SkyNet/SkyNet/obj/Debug/net8.0/SkyNet.genruntimeconfig.cache
+/home/daniliammo/RiderProjects/SkyNet/SkyNet/obj/Debug/net8.0/ref/SkyNet.dll
+/home/daniliammo/RiderProjects/SkyNet/SkyNet/bin/Debug/net8.0/Tmds.DBus.dll
+/home/daniliammo/RiderProjects/SkyNet/SkyNet/obj/Debug/net8.0/SkyNet.csproj.AssemblyReference.cache
+/home/daniliammo/RiderProjects/SkyNet/SkyNet/obj/Debug/net8.0/SkyNet.csproj.CopyComplete

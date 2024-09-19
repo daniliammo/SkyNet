@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SkyNet/1.0.0": {
+        "dependencies": {
+          "Tmds.DBus": "0.20.0"
+        },
+        "runtime": {
+          "SkyNet.dll": {}
+        }
+      },
+      "Tmds.DBus/0.20.0": {
+        "runtime": {
+          "lib/net6.0/Tmds.DBus.dll": {
+            "assemblyVersion": "0.20.0.0",
+            "fileVersion": "0.20.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SkyNet/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tmds.DBus/0.20.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zbWoimlpWKBIyc9JqNr26f0pnJ7W5M78XCks0J02qXEQykWzIgzR3ZCIO7yZyeqww+Oz2Jh+62GnkErNLyIG9w==",
+      "path": "tmds.dbus/0.20.0",
+      "hashPath": "tmds.dbus.0.20.0.nupkg.sha512"
+    }
+  }
+}
