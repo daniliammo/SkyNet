@@ -1,11 +1,22 @@
-﻿namespace SkyNet;
+﻿using ImGuiNET;
+using SFML.Audio;
+
+
+namespace SkyNet;
 
 internal abstract class Program
 {
     private static void Main(string[] args)
     {
-        var sessionType = Environment.GetEnvironmentVariable("XDG_SESSION_TYPE");
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Привет, Мир!");
+        Console.WriteLine(ImGui.GetVersion());
+        var x = false;
+        ImGui.ShowDemoWindow(ref x);
         new SkyNet();
+
+        // var buffer = new SoundBuffer("/home/daniliammo/HookCanceled.wav");
+        // var sound = new Sound();
+        // sound.SoundBuffer = buffer;
+        // sound.Play();
     }
 }
