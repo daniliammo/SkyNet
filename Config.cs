@@ -11,5 +11,7 @@ public static class Config
     public static readonly Color EnemyColor = Color.Firebrick;
     public static readonly Color AllyColor = Color.Chartreuse;
     public static readonly Color DeadBodyColor = Color.Black;
+
+    public static readonly byte Fps = 165;
     #endregion
 }
