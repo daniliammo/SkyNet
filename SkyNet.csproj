@@ -6,26 +6,30 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <DefineConstants>LINUX</DefineConstants>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
-      <Optimize>false</Optimize>
-      <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+      <Optimize>true</Optimize>
       <PlatformTarget>AnyCPU</PlatformTarget>
       <Prefer32bit>false</Prefer32bit>
+      <OutputPath>bin/Debug</OutputPath>
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
       <Optimize>true</Optimize>
-      <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
       <PlatformTarget>AnyCPU</PlatformTarget>
       <Prefer32bit>false</Prefer32bit>
+      <OutputPath>bin/Release</OutputPath>
     </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="GirCore.Gtk-4.0" Version="0.5.0" />
-      <PackageReference Include="ImGui.NET" Version="1.91.0.1" />
       <PackageReference Include="SFML.Audio" Version="2.6.0" />
+      <PackageReference Include="SFML.Graphics" Version="2.6.0" />
+      <PackageReference Include="SFML.Net" Version="2.6.0" />
+      <PackageReference Include="SFML.System" Version="2.6.0" />
+      <PackageReference Include="SFML.Window" Version="2.6.0" />
       <PackageReference Include="Tmds.DBus" Version="0.20.0" />
     </ItemGroup>
     
