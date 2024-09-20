@@ -79,10 +79,18 @@ public enum ObjectType
     #endregion
     
     #region Gadgets
+
+    #region Grenades
     FragGrenade,
     ImpactGrenade,
     Flashbang,
     SmokeGrenade,
+    #endregion
+    
+    AirDrone,
+    AirDroneDestroyed,
+    
+    AntiVehicleMine,
     AntiPersonnelMine,
     Claymore,
     AntiGrenadeTrophy
