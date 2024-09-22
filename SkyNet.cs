@@ -1,21 +1,16 @@
 namespace SkyNet;
 
-public class SkyNet
+public static class SkyNet
 {
 
-    private static XdgSessionType _sessionType;
+    public static XdgSessionType SessionType;
 
-    private static VisionObject[]? _visionObjects;
+    public static VisionObject[]? VisionObjects;
     
-    
-    public SkyNet()
-    {
-        PrepareForStart();
-    }
 
     private static void PrepareForStart()
     {
-        _sessionType = GetSessionType();
+        SessionType = GetSessionType();
     }
     
     private static XdgSessionType GetSessionType()

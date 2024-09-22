@@ -24,7 +24,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="GirCore.Gtk-4.0" Version="0.5.0" />
+      <PackageReference Include="GtkSharp" Version="3.24.24.117-develop" />
       <PackageReference Include="SFML.Audio" Version="2.6.0" />
       <PackageReference Include="SFML.Graphics" Version="2.6.0" />
       <PackageReference Include="SFML.Net" Version="2.6.0" />

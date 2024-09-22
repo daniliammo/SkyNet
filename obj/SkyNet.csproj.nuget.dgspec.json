@@ -38,6 +38,30 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "GtkSharp": {
+              "target": "Package",
+              "version": "[3.24.24.117-develop, )"
+            },
+            "SFML.Audio": {
+              "target": "Package",
+              "version": "[2.6.0, )"
+            },
+            "SFML.Graphics": {
+              "target": "Package",
+              "version": "[2.6.0, )"
+            },
+            "SFML.Net": {
+              "target": "Package",
+              "version": "[2.6.0, )"
+            },
+            "SFML.System": {
+              "target": "Package",
+              "version": "[2.6.0, )"
+            },
+            "SFML.Window": {
+              "target": "Package",
+              "version": "[2.6.0, )"
+            },
             "Tmds.DBus": {
               "target": "Package",
               "version": "[0.20.0, )"

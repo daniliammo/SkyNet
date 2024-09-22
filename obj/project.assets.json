@@ -2,6 +2,893 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "AtkSharp/3.24.24.117-develop": {
+        "type": "package",
+        "dependencies": {
+          "GLibSharp": "3.24.24.117-develop"
+        },
+        "compile": {
+          "lib/net8.0/AtkSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/AtkSharp.dll": {}
+        }
+      },
+      "CairoSharp/3.24.24.117-develop": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/CairoSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/CairoSharp.dll": {}
+        }
+      },
+      "CSFML/2.6.1": {
+        "type": "package",
+        "build": {
+          "build/netstandard2.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/fedora-x64/native/libcsfml-audio.so": {
+            "assetType": "native",
+            "rid": "fedora-x64"
+          },
+          "runtimes/fedora-x64/native/libcsfml-audio.so.2.6": {
+            "assetType": "native",
+            "rid": "fedora-x64"
+          },
+          "runtimes/fedora-x64/native/libcsfml-graphics.so": {
+            "assetType": "native",
+            "rid": "fedora-x64"
+          },
+          "runtimes/fedora-x64/native/libcsfml-graphics.so.2.6": {
+            "assetType": "native",
+            "rid": "fedora-x64"
+          },
+          "runtimes/fedora-x64/native/libcsfml-system.so": {
+            "assetType": "native",
+            "rid": "fedora-x64"
+          },
+          "runtimes/fedora-x64/native/libcsfml-system.so.2.6": {
+            "assetType": "native",
+            "rid": "fedora-x64"
+          },
+          "runtimes/fedora-x64/native/libcsfml-window.so": {
+            "assetType": "native",
+            "rid": "fedora-x64"
+          },
+          "runtimes/fedora-x64/native/libcsfml-window.so.2.6": {
+            "assetType": "native",
+            "rid": "fedora-x64"
+          },
+          "runtimes/fedora-x64/native/libsfml-audio.so.2.6": {
+            "assetType": "native",
+            "rid": "fedora-x64"
+          },
+          "runtimes/fedora-x64/native/libsfml-graphics.so.2.6": {
+            "assetType": "native",
+            "rid": "fedora-x64"
+          },
+          "runtimes/fedora-x64/native/libsfml-system.so.2.6": {
+            "assetType": "native",
+            "rid": "fedora-x64"
+          },
+          "runtimes/fedora-x64/native/libsfml-window.so.2.6": {
+            "assetType": "native",
+            "rid": "fedora-x64"
+          },
+          "runtimes/linux-arm/native/libcsfml-audio.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm/native/libcsfml-audio.so.2.6": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm/native/libcsfml-graphics.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm/native/libcsfml-graphics.so.2.6": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm/native/libcsfml-system.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm/native/libcsfml-system.so.2.6": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm/native/libcsfml-window.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm/native/libcsfml-window.so.2.6": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm/native/libsfml-audio.so.2.6": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm/native/libsfml-graphics.so.2.6": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm/native/libsfml-system.so.2.6": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm/native/libsfml-window.so.2.6": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm64/native/libcsfml-audio.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libcsfml-audio.so.2.6": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libcsfml-graphics.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libcsfml-graphics.so.2.6": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libcsfml-system.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libcsfml-system.so.2.6": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libcsfml-window.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libcsfml-window.so.2.6": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libsfml-audio.so.2.6": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libsfml-graphics.so.2.6": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libsfml-system.so.2.6": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libsfml-window.so.2.6": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-musl-x64/native/libcsfml-audio.so": {
+            "assetType": "native",
+            "rid": "linux-musl-x64"
+          },
+          "runtimes/linux-musl-x64/native/libcsfml-audio.so.2.6": {
+            "assetType": "native",
+            "rid": "linux-musl-x64"
+          },
+          "runtimes/linux-musl-x64/native/libcsfml-graphics.so": {
+            "assetType": "native",
+            "rid": "linux-musl-x64"
+          },
+          "runtimes/linux-musl-x64/native/libcsfml-graphics.so.2.6": {
+            "assetType": "native",
+            "rid": "linux-musl-x64"
+          },
+          "runtimes/linux-musl-x64/native/libcsfml-system.so": {
+            "assetType": "native",
+            "rid": "linux-musl-x64"
+          },
+          "runtimes/linux-musl-x64/native/libcsfml-system.so.2.6": {
+            "assetType": "native",
+            "rid": "linux-musl-x64"
+          },
+          "runtimes/linux-musl-x64/native/libcsfml-window.so": {
+            "assetType": "native",
+            "rid": "linux-musl-x64"
+          },
+          "runtimes/linux-musl-x64/native/libcsfml-window.so.2.6": {
+            "assetType": "native",
+            "rid": "linux-musl-x64"
+          },
+          "runtimes/linux-musl-x64/native/libsfml-audio.so.2.6": {
+            "assetType": "native",
+            "rid": "linux-musl-x64"
+          },
+          "runtimes/linux-musl-x64/native/libsfml-graphics.so.2.6": {
+            "assetType": "native",
+            "rid": "linux-musl-x64"
+          },
+          "runtimes/linux-musl-x64/native/libsfml-system.so.2.6": {
+            "assetType": "native",
+            "rid": "linux-musl-x64"
+          },
+          "runtimes/linux-musl-x64/native/libsfml-window.so.2.6": {
+            "assetType": "native",
+            "rid": "linux-musl-x64"
+          },
+          "runtimes/linux-x64/native/libcsfml-audio.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libcsfml-audio.so.2.6": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libcsfml-graphics.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libcsfml-graphics.so.2.6": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libcsfml-system.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libcsfml-system.so.2.6": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libcsfml-window.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libcsfml-window.so.2.6": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libsfml-audio.so.2.6": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libsfml-graphics.so.2.6": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libsfml-system.so.2.6": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libsfml-window.so.2.6": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-arm64/native/FLAC.framework/FLAC": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/FLAC.framework/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/FLAC.framework/Versions/A/FLAC": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/FLAC.framework/Versions/A/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/FLAC.framework/Versions/Current/FLAC": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/FLAC.framework/Versions/Current/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/OpenAL.framework/OpenAL": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/OpenAL.framework/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/OpenAL.framework/Versions/A/OpenAL": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/OpenAL.framework/Versions/A/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/OpenAL.framework/Versions/Current/OpenAL": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/OpenAL.framework/Versions/Current/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/freetype.framework/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/freetype.framework/Versions/A/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/freetype.framework/Versions/A/freetype": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/freetype.framework/Versions/Current/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/freetype.framework/Versions/Current/freetype": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/freetype.framework/freetype": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/libcsfml-audio.2.6.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/libcsfml-audio.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/libcsfml-graphics.2.6.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/libcsfml-graphics.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/libcsfml-system.2.6.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/libcsfml-system.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/libcsfml-window.2.6.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/libcsfml-window.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/libsfml-audio.2.6.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/libsfml-graphics.2.6.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/libsfml-system.2.6.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/libsfml-window.2.6.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/ogg.framework/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/ogg.framework/Versions/A/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/ogg.framework/Versions/A/ogg": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/ogg.framework/Versions/Current/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/ogg.framework/Versions/Current/ogg": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/ogg.framework/ogg": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/vorbis.framework/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/vorbis.framework/Versions/A/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/vorbis.framework/Versions/A/vorbis": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/vorbis.framework/Versions/Current/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/vorbis.framework/Versions/Current/vorbis": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/vorbis.framework/vorbis": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/vorbisenc.framework/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/vorbisenc.framework/Versions/A/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/vorbisenc.framework/Versions/A/vorbisenc": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/vorbisenc.framework/Versions/Current/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/vorbisenc.framework/Versions/Current/vorbisenc": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/vorbisenc.framework/vorbisenc": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/vorbisfile.framework/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/vorbisfile.framework/Versions/A/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/vorbisfile.framework/Versions/A/vorbisfile": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/vorbisfile.framework/Versions/Current/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/vorbisfile.framework/Versions/Current/vorbisfile": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/vorbisfile.framework/vorbisfile": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-x64/native/FLAC.framework/FLAC": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/FLAC.framework/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/FLAC.framework/Versions/A/FLAC": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/FLAC.framework/Versions/A/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/FLAC.framework/Versions/Current/FLAC": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/FLAC.framework/Versions/Current/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/OpenAL.framework/OpenAL": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/OpenAL.framework/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/OpenAL.framework/Versions/A/OpenAL": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/OpenAL.framework/Versions/A/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/OpenAL.framework/Versions/Current/OpenAL": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/OpenAL.framework/Versions/Current/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/freetype.framework/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/freetype.framework/Versions/A/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/freetype.framework/Versions/A/freetype": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/freetype.framework/Versions/Current/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/freetype.framework/Versions/Current/freetype": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/freetype.framework/freetype": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libcsfml-audio.2.6.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libcsfml-audio.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libcsfml-graphics.2.6.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libcsfml-graphics.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libcsfml-system.2.6.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libcsfml-system.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libcsfml-window.2.6.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libcsfml-window.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libsfml-audio.2.6.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libsfml-graphics.2.6.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libsfml-system.2.6.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libsfml-window.2.6.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/ogg.framework/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/ogg.framework/Versions/A/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/ogg.framework/Versions/A/ogg": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/ogg.framework/Versions/Current/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/ogg.framework/Versions/Current/ogg": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/ogg.framework/ogg": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/vorbis.framework/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/vorbis.framework/Versions/A/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/vorbis.framework/Versions/A/vorbis": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/vorbis.framework/Versions/Current/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/vorbis.framework/Versions/Current/vorbis": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/vorbis.framework/vorbis": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/vorbisenc.framework/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/vorbisenc.framework/Versions/A/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/vorbisenc.framework/Versions/A/vorbisenc": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/vorbisenc.framework/Versions/Current/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/vorbisenc.framework/Versions/Current/vorbisenc": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/vorbisenc.framework/vorbisenc": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/vorbisfile.framework/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/vorbisfile.framework/Versions/A/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/vorbisfile.framework/Versions/A/vorbisfile": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/vorbisfile.framework/Versions/Current/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/vorbisfile.framework/Versions/Current/vorbisfile": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/vorbisfile.framework/vorbisfile": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/csfml-audio.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/csfml-graphics.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/csfml-system.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/csfml-window.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/openal32.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/csfml-audio.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/csfml-graphics.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/csfml-system.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/csfml-window.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/openal32.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "GdkSharp/3.24.24.117-develop": {
+        "type": "package",
+        "dependencies": {
+          "CairoSharp": "3.24.24.117-develop",
+          "GLibSharp": "3.24.24.117-develop",
+          "GioSharp": "3.24.24.117-develop",
+          "PangoSharp": "3.24.24.117-develop"
+        },
+        "compile": {
+          "lib/net8.0/GdkSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/GdkSharp.dll": {}
+        }
+      },
+      "GioSharp/3.24.24.117-develop": {
+        "type": "package",
+        "dependencies": {
+          "GLibSharp": "3.24.24.117-develop"
+        },
+        "compile": {
+          "lib/net8.0/GioSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/GioSharp.dll": {}
+        }
+      },
+      "GLibSharp/3.24.24.117-develop": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/GLibSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/GLibSharp.dll": {}
+        }
+      },
+      "GtkSharp/3.24.24.117-develop": {
+        "type": "package",
+        "dependencies": {
+          "AtkSharp": "3.24.24.117-develop",
+          "CairoSharp": "3.24.24.117-develop",
+          "GLibSharp": "3.24.24.117-develop",
+          "GdkSharp": "3.24.24.117-develop",
+          "GioSharp": "3.24.24.117-develop",
+          "PangoSharp": "3.24.24.117-develop"
+        },
+        "compile": {
+          "lib/net8.0/GtkSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/GtkSharp.dll": {}
+        },
+        "build": {
+          "build/GtkSharp.targets": {}
+        }
+      },
+      "PangoSharp/3.24.24.117-develop": {
+        "type": "package",
+        "dependencies": {
+          "CairoSharp": "3.24.24.117-develop",
+          "GLibSharp": "3.24.24.117-develop"
+        },
+        "compile": {
+          "lib/net8.0/PangoSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/PangoSharp.dll": {}
+        }
+      },
+      "SFML.Audio/2.6.0": {
+        "type": "package",
+        "dependencies": {
+          "CSFML": "[2.6.1, 2.7.0)",
+          "SFML.System": "2.6.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/SFML.Audio.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/SFML.Audio.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SFML.Graphics/2.6.0": {
+        "type": "package",
+        "dependencies": {
+          "CSFML": "[2.6.1, 2.7.0)",
+          "SFML.System": "2.6.0",
+          "SFML.Window": "2.6.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/SFML.Graphics.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/SFML.Graphics.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SFML.Net/2.6.0": {
+        "type": "package",
+        "dependencies": {
+          "SFML.Audio": "2.6.0",
+          "SFML.Graphics": "2.6.0",
+          "SFML.System": "2.6.0",
+          "SFML.Window": "2.6.0"
+        }
+      },
+      "SFML.System/2.6.0": {
+        "type": "package",
+        "dependencies": {
+          "CSFML": "[2.6.1, 2.7.0)"
+        },
+        "compile": {
+          "lib/netstandard2.0/SFML.System.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/SFML.System.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SFML.Window/2.6.0": {
+        "type": "package",
+        "dependencies": {
+          "CSFML": "[2.6.1, 2.7.0)",
+          "SFML.System": "2.6.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/SFML.Window.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/SFML.Window.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Tmds.DBus/0.20.0": {
         "type": "package",
         "compile": {
@@ -18,6 +905,364 @@
     }
   },
   "libraries": {
+    "AtkSharp/3.24.24.117-develop": {
+      "sha512": "LqhUEqLkNC4Uybx/IKQenGDSvDFrjGE6w9uQ1zZwyHuGyDSZhiqeg6PyzU1FaQ3NF+uGwbFxDcDYJCVM2JoTpw==",
+      "type": "package",
+      "path": "atksharp/3.24.24.117-develop",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "atksharp.3.24.24.117-develop.nupkg.sha512",
+        "atksharp.nuspec",
+        "lib/net8.0/AtkSharp.dll",
+        "lib/netstandard2.0/AtkSharp.dll"
+      ]
+    },
+    "CairoSharp/3.24.24.117-develop": {
+      "sha512": "5zsEUuksviQPiZHdXyiuzVbn2wVnaBURTyENkVmZuHzr5T8mONAm+15LUu19Z3xbFCKx0CH4GJzuO7qW14nNQw==",
+      "type": "package",
+      "path": "cairosharp/3.24.24.117-develop",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "cairosharp.3.24.24.117-develop.nupkg.sha512",
+        "cairosharp.nuspec",
+        "lib/net8.0/CairoSharp.dll",
+        "lib/netstandard2.0/CairoSharp.dll"
+      ]
+    },
+    "CSFML/2.6.1": {
+      "sha512": "GLSL1ffzsEVunOwCOXeFNsKgx10sLpU8WIuwnzNgD+uSgsodJQ9S4F9g8dOudjj7icjAJjJbOdZ33bv/lWiy4w==",
+      "type": "package",
+      "path": "csfml/2.6.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/netframework/CSFML.props",
+        "build/netframework/CSFML.targets",
+        "build/netstandard2.0/CSFML.props",
+        "csfml.2.6.1.nupkg.sha512",
+        "csfml.nuspec",
+        "runtimes/fedora-x64/native/libcsfml-audio.so",
+        "runtimes/fedora-x64/native/libcsfml-audio.so.2.6",
+        "runtimes/fedora-x64/native/libcsfml-graphics.so",
+        "runtimes/fedora-x64/native/libcsfml-graphics.so.2.6",
+        "runtimes/fedora-x64/native/libcsfml-system.so",
+        "runtimes/fedora-x64/native/libcsfml-system.so.2.6",
+        "runtimes/fedora-x64/native/libcsfml-window.so",
+        "runtimes/fedora-x64/native/libcsfml-window.so.2.6",
+        "runtimes/fedora-x64/native/libsfml-audio.so.2.6",
+        "runtimes/fedora-x64/native/libsfml-graphics.so.2.6",
+        "runtimes/fedora-x64/native/libsfml-system.so.2.6",
+        "runtimes/fedora-x64/native/libsfml-window.so.2.6",
+        "runtimes/linux-arm/native/libcsfml-audio.so",
+        "runtimes/linux-arm/native/libcsfml-audio.so.2.6",
+        "runtimes/linux-arm/native/libcsfml-graphics.so",
+        "runtimes/linux-arm/native/libcsfml-graphics.so.2.6",
+        "runtimes/linux-arm/native/libcsfml-system.so",
+        "runtimes/linux-arm/native/libcsfml-system.so.2.6",
+        "runtimes/linux-arm/native/libcsfml-window.so",
+        "runtimes/linux-arm/native/libcsfml-window.so.2.6",
+        "runtimes/linux-arm/native/libsfml-audio.so.2.6",
+        "runtimes/linux-arm/native/libsfml-graphics.so.2.6",
+        "runtimes/linux-arm/native/libsfml-system.so.2.6",
+        "runtimes/linux-arm/native/libsfml-window.so.2.6",
+        "runtimes/linux-arm64/native/libcsfml-audio.so",
+        "runtimes/linux-arm64/native/libcsfml-audio.so.2.6",
+        "runtimes/linux-arm64/native/libcsfml-graphics.so",
+        "runtimes/linux-arm64/native/libcsfml-graphics.so.2.6",
+        "runtimes/linux-arm64/native/libcsfml-system.so",
+        "runtimes/linux-arm64/native/libcsfml-system.so.2.6",
+        "runtimes/linux-arm64/native/libcsfml-window.so",
+        "runtimes/linux-arm64/native/libcsfml-window.so.2.6",
+        "runtimes/linux-arm64/native/libsfml-audio.so.2.6",
+        "runtimes/linux-arm64/native/libsfml-graphics.so.2.6",
+        "runtimes/linux-arm64/native/libsfml-system.so.2.6",
+        "runtimes/linux-arm64/native/libsfml-window.so.2.6",
+        "runtimes/linux-musl-x64/native/libcsfml-audio.so",
+        "runtimes/linux-musl-x64/native/libcsfml-audio.so.2.6",
+        "runtimes/linux-musl-x64/native/libcsfml-graphics.so",
+        "runtimes/linux-musl-x64/native/libcsfml-graphics.so.2.6",
+        "runtimes/linux-musl-x64/native/libcsfml-system.so",
+        "runtimes/linux-musl-x64/native/libcsfml-system.so.2.6",
+        "runtimes/linux-musl-x64/native/libcsfml-window.so",
+        "runtimes/linux-musl-x64/native/libcsfml-window.so.2.6",
+        "runtimes/linux-musl-x64/native/libsfml-audio.so.2.6",
+        "runtimes/linux-musl-x64/native/libsfml-graphics.so.2.6",
+        "runtimes/linux-musl-x64/native/libsfml-system.so.2.6",
+        "runtimes/linux-musl-x64/native/libsfml-window.so.2.6",
+        "runtimes/linux-x64/native/libcsfml-audio.so",
+        "runtimes/linux-x64/native/libcsfml-audio.so.2.6",
+        "runtimes/linux-x64/native/libcsfml-graphics.so",
+        "runtimes/linux-x64/native/libcsfml-graphics.so.2.6",
+        "runtimes/linux-x64/native/libcsfml-system.so",
+        "runtimes/linux-x64/native/libcsfml-system.so.2.6",
+        "runtimes/linux-x64/native/libcsfml-window.so",
+        "runtimes/linux-x64/native/libcsfml-window.so.2.6",
+        "runtimes/linux-x64/native/libsfml-audio.so.2.6",
+        "runtimes/linux-x64/native/libsfml-graphics.so.2.6",
+        "runtimes/linux-x64/native/libsfml-system.so.2.6",
+        "runtimes/linux-x64/native/libsfml-window.so.2.6",
+        "runtimes/osx-arm64/native/FLAC.framework/FLAC",
+        "runtimes/osx-arm64/native/FLAC.framework/Resources/Info.plist",
+        "runtimes/osx-arm64/native/FLAC.framework/Versions/A/FLAC",
+        "runtimes/osx-arm64/native/FLAC.framework/Versions/A/Resources/Info.plist",
+        "runtimes/osx-arm64/native/FLAC.framework/Versions/Current/FLAC",
+        "runtimes/osx-arm64/native/FLAC.framework/Versions/Current/Resources/Info.plist",
+        "runtimes/osx-arm64/native/OpenAL.framework/OpenAL",
+        "runtimes/osx-arm64/native/OpenAL.framework/Resources/Info.plist",
+        "runtimes/osx-arm64/native/OpenAL.framework/Versions/A/OpenAL",
+        "runtimes/osx-arm64/native/OpenAL.framework/Versions/A/Resources/Info.plist",
+        "runtimes/osx-arm64/native/OpenAL.framework/Versions/Current/OpenAL",
+        "runtimes/osx-arm64/native/OpenAL.framework/Versions/Current/Resources/Info.plist",
+        "runtimes/osx-arm64/native/freetype.framework/Resources/Info.plist",
+        "runtimes/osx-arm64/native/freetype.framework/Versions/A/Resources/Info.plist",
+        "runtimes/osx-arm64/native/freetype.framework/Versions/A/freetype",
+        "runtimes/osx-arm64/native/freetype.framework/Versions/Current/Resources/Info.plist",
+        "runtimes/osx-arm64/native/freetype.framework/Versions/Current/freetype",
+        "runtimes/osx-arm64/native/freetype.framework/freetype",
+        "runtimes/osx-arm64/native/libcsfml-audio.2.6.dylib",
+        "runtimes/osx-arm64/native/libcsfml-audio.dylib",
+        "runtimes/osx-arm64/native/libcsfml-graphics.2.6.dylib",
+        "runtimes/osx-arm64/native/libcsfml-graphics.dylib",
+        "runtimes/osx-arm64/native/libcsfml-system.2.6.dylib",
+        "runtimes/osx-arm64/native/libcsfml-system.dylib",
+        "runtimes/osx-arm64/native/libcsfml-window.2.6.dylib",
+        "runtimes/osx-arm64/native/libcsfml-window.dylib",
+        "runtimes/osx-arm64/native/libsfml-audio.2.6.dylib",
+        "runtimes/osx-arm64/native/libsfml-graphics.2.6.dylib",
+        "runtimes/osx-arm64/native/libsfml-system.2.6.dylib",
+        "runtimes/osx-arm64/native/libsfml-window.2.6.dylib",
+        "runtimes/osx-arm64/native/ogg.framework/Resources/Info.plist",
+        "runtimes/osx-arm64/native/ogg.framework/Versions/A/Resources/Info.plist",
+        "runtimes/osx-arm64/native/ogg.framework/Versions/A/ogg",
+        "runtimes/osx-arm64/native/ogg.framework/Versions/Current/Resources/Info.plist",
+        "runtimes/osx-arm64/native/ogg.framework/Versions/Current/ogg",
+        "runtimes/osx-arm64/native/ogg.framework/ogg",
+        "runtimes/osx-arm64/native/vorbis.framework/Resources/Info.plist",
+        "runtimes/osx-arm64/native/vorbis.framework/Versions/A/Resources/Info.plist",
+        "runtimes/osx-arm64/native/vorbis.framework/Versions/A/vorbis",
+        "runtimes/osx-arm64/native/vorbis.framework/Versions/Current/Resources/Info.plist",
+        "runtimes/osx-arm64/native/vorbis.framework/Versions/Current/vorbis",
+        "runtimes/osx-arm64/native/vorbis.framework/vorbis",
+        "runtimes/osx-arm64/native/vorbisenc.framework/Resources/Info.plist",
+        "runtimes/osx-arm64/native/vorbisenc.framework/Versions/A/Resources/Info.plist",
+        "runtimes/osx-arm64/native/vorbisenc.framework/Versions/A/vorbisenc",
+        "runtimes/osx-arm64/native/vorbisenc.framework/Versions/Current/Resources/Info.plist",
+        "runtimes/osx-arm64/native/vorbisenc.framework/Versions/Current/vorbisenc",
+        "runtimes/osx-arm64/native/vorbisenc.framework/vorbisenc",
+        "runtimes/osx-arm64/native/vorbisfile.framework/Resources/Info.plist",
+        "runtimes/osx-arm64/native/vorbisfile.framework/Versions/A/Resources/Info.plist",
+        "runtimes/osx-arm64/native/vorbisfile.framework/Versions/A/vorbisfile",
+        "runtimes/osx-arm64/native/vorbisfile.framework/Versions/Current/Resources/Info.plist",
+        "runtimes/osx-arm64/native/vorbisfile.framework/Versions/Current/vorbisfile",
+        "runtimes/osx-arm64/native/vorbisfile.framework/vorbisfile",
+        "runtimes/osx-x64/native/FLAC.framework/FLAC",
+        "runtimes/osx-x64/native/FLAC.framework/Resources/Info.plist",
+        "runtimes/osx-x64/native/FLAC.framework/Versions/A/FLAC",
+        "runtimes/osx-x64/native/FLAC.framework/Versions/A/Resources/Info.plist",
+        "runtimes/osx-x64/native/FLAC.framework/Versions/Current/FLAC",
+        "runtimes/osx-x64/native/FLAC.framework/Versions/Current/Resources/Info.plist",
+        "runtimes/osx-x64/native/OpenAL.framework/OpenAL",
+        "runtimes/osx-x64/native/OpenAL.framework/Resources/Info.plist",
+        "runtimes/osx-x64/native/OpenAL.framework/Versions/A/OpenAL",
+        "runtimes/osx-x64/native/OpenAL.framework/Versions/A/Resources/Info.plist",
+        "runtimes/osx-x64/native/OpenAL.framework/Versions/Current/OpenAL",
+        "runtimes/osx-x64/native/OpenAL.framework/Versions/Current/Resources/Info.plist",
+        "runtimes/osx-x64/native/freetype.framework/Resources/Info.plist",
+        "runtimes/osx-x64/native/freetype.framework/Versions/A/Resources/Info.plist",
+        "runtimes/osx-x64/native/freetype.framework/Versions/A/freetype",
+        "runtimes/osx-x64/native/freetype.framework/Versions/Current/Resources/Info.plist",
+        "runtimes/osx-x64/native/freetype.framework/Versions/Current/freetype",
+        "runtimes/osx-x64/native/freetype.framework/freetype",
+        "runtimes/osx-x64/native/libcsfml-audio.2.6.dylib",
+        "runtimes/osx-x64/native/libcsfml-audio.dylib",
+        "runtimes/osx-x64/native/libcsfml-graphics.2.6.dylib",
+        "runtimes/osx-x64/native/libcsfml-graphics.dylib",
+        "runtimes/osx-x64/native/libcsfml-system.2.6.dylib",
+        "runtimes/osx-x64/native/libcsfml-system.dylib",
+        "runtimes/osx-x64/native/libcsfml-window.2.6.dylib",
+        "runtimes/osx-x64/native/libcsfml-window.dylib",
+        "runtimes/osx-x64/native/libsfml-audio.2.6.dylib",
+        "runtimes/osx-x64/native/libsfml-graphics.2.6.dylib",
+        "runtimes/osx-x64/native/libsfml-system.2.6.dylib",
+        "runtimes/osx-x64/native/libsfml-window.2.6.dylib",
+        "runtimes/osx-x64/native/ogg.framework/Resources/Info.plist",
+        "runtimes/osx-x64/native/ogg.framework/Versions/A/Resources/Info.plist",
+        "runtimes/osx-x64/native/ogg.framework/Versions/A/ogg",
+        "runtimes/osx-x64/native/ogg.framework/Versions/Current/Resources/Info.plist",
+        "runtimes/osx-x64/native/ogg.framework/Versions/Current/ogg",
+        "runtimes/osx-x64/native/ogg.framework/ogg",
+        "runtimes/osx-x64/native/vorbis.framework/Resources/Info.plist",
+        "runtimes/osx-x64/native/vorbis.framework/Versions/A/Resources/Info.plist",
+        "runtimes/osx-x64/native/vorbis.framework/Versions/A/vorbis",
+        "runtimes/osx-x64/native/vorbis.framework/Versions/Current/Resources/Info.plist",
+        "runtimes/osx-x64/native/vorbis.framework/Versions/Current/vorbis",
+        "runtimes/osx-x64/native/vorbis.framework/vorbis",
+        "runtimes/osx-x64/native/vorbisenc.framework/Resources/Info.plist",
+        "runtimes/osx-x64/native/vorbisenc.framework/Versions/A/Resources/Info.plist",
+        "runtimes/osx-x64/native/vorbisenc.framework/Versions/A/vorbisenc",
+        "runtimes/osx-x64/native/vorbisenc.framework/Versions/Current/Resources/Info.plist",
+        "runtimes/osx-x64/native/vorbisenc.framework/Versions/Current/vorbisenc",
+        "runtimes/osx-x64/native/vorbisenc.framework/vorbisenc",
+        "runtimes/osx-x64/native/vorbisfile.framework/Resources/Info.plist",
+        "runtimes/osx-x64/native/vorbisfile.framework/Versions/A/Resources/Info.plist",
+        "runtimes/osx-x64/native/vorbisfile.framework/Versions/A/vorbisfile",
+        "runtimes/osx-x64/native/vorbisfile.framework/Versions/Current/Resources/Info.plist",
+        "runtimes/osx-x64/native/vorbisfile.framework/Versions/Current/vorbisfile",
+        "runtimes/osx-x64/native/vorbisfile.framework/vorbisfile",
+        "runtimes/win-x64/native/csfml-audio.dll",
+        "runtimes/win-x64/native/csfml-graphics.dll",
+        "runtimes/win-x64/native/csfml-system.dll",
+        "runtimes/win-x64/native/csfml-window.dll",
+        "runtimes/win-x64/native/openal32.dll",
+        "runtimes/win-x86/native/csfml-audio.dll",
+        "runtimes/win-x86/native/csfml-graphics.dll",
+        "runtimes/win-x86/native/csfml-system.dll",
+        "runtimes/win-x86/native/csfml-window.dll",
+        "runtimes/win-x86/native/openal32.dll",
+        "sfml-icon.png"
+      ]
+    },
+    "GdkSharp/3.24.24.117-develop": {
+      "sha512": "M7N7gMqjrW2NnAWcqR2E5/x5JUuz2jT3mFTTD7raHWF6llW7fiP3zxJfIiJHwHIOjSd8pfu7G8bVdCHwAd8t8g==",
+      "type": "package",
+      "path": "gdksharp/3.24.24.117-develop",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gdksharp.3.24.24.117-develop.nupkg.sha512",
+        "gdksharp.nuspec",
+        "lib/net8.0/GdkSharp.dll",
+        "lib/netstandard2.0/GdkSharp.dll"
+      ]
+    },
+    "GioSharp/3.24.24.117-develop": {
+      "sha512": "PxXTbBumyzJHt/h6qED0MYO3vEAY4vBHbgDrWFp1Kap5uUSpIMV8GPH2UaswX0wEtgdkMrVdhYGdeSllMwHWHw==",
+      "type": "package",
+      "path": "giosharp/3.24.24.117-develop",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "giosharp.3.24.24.117-develop.nupkg.sha512",
+        "giosharp.nuspec",
+        "lib/net8.0/GioSharp.dll",
+        "lib/netstandard2.0/GioSharp.dll"
+      ]
+    },
+    "GLibSharp/3.24.24.117-develop": {
+      "sha512": "NPHNJBR0FTZRMREP7ZtdFOlPFTRJwecYSCIWiJMvRybasH5xyavf7UmPkMzrGGJdt5ne4ZEZ3Yj+uOcqVKnkqg==",
+      "type": "package",
+      "path": "glibsharp/3.24.24.117-develop",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "glibsharp.3.24.24.117-develop.nupkg.sha512",
+        "glibsharp.nuspec",
+        "lib/net8.0/GLibSharp.dll",
+        "lib/netstandard2.0/GLibSharp.dll"
+      ]
+    },
+    "GtkSharp/3.24.24.117-develop": {
+      "sha512": "qc4oBmHw4VoMk+tTurM6g2FRCl8yot/oOAy9ytmvzQ2+zI9T/SLF+Q534R1q8z3uz4q9sm46QOJOQOfAyOlKnQ==",
+      "type": "package",
+      "path": "gtksharp/3.24.24.117-develop",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/GtkSharp.targets",
+        "gtksharp.3.24.24.117-develop.nupkg.sha512",
+        "gtksharp.nuspec",
+        "lib/net8.0/GtkSharp.dll",
+        "lib/netstandard2.0/GtkSharp.dll"
+      ]
+    },
+    "PangoSharp/3.24.24.117-develop": {
+      "sha512": "WycHWMa+cd07LrbFMi4ulvFYbzz2WrjNw2F2MsJTZKW63J7Yxw9gHA5vMAkF6h/jT0beAi0+0FLqDyFm4xJszg==",
+      "type": "package",
+      "path": "pangosharp/3.24.24.117-develop",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net8.0/PangoSharp.dll",
+        "lib/netstandard2.0/PangoSharp.dll",
+        "pangosharp.3.24.24.117-develop.nupkg.sha512",
+        "pangosharp.nuspec"
+      ]
+    },
+    "SFML.Audio/2.6.0": {
+      "sha512": "DvribzbjacRFSFU/A7xLkxlYEwMGKM9bwcpFo3TjStpKTDNSrSDw3EWuE0HwrQpzfiNxCAutnlRFvfwufUHuNw==",
+      "type": "package",
+      "path": "sfml.audio/2.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/netstandard2.0/SFML.Audio.dll",
+        "lib/netstandard2.0/SFML.Audio.xml",
+        "sfml-icon.png",
+        "sfml.audio.2.6.0.nupkg.sha512",
+        "sfml.audio.nuspec"
+      ]
+    },
+    "SFML.Graphics/2.6.0": {
+      "sha512": "bwYJT4siVta87d3ZaRN37FViOMAgiiYS9BYJOhHL70G9+KDtqbAl1LYg9hdEG8IHFSj55I7P8qkPL33KQ16RBg==",
+      "type": "package",
+      "path": "sfml.graphics/2.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/netstandard2.0/SFML.Graphics.dll",
+        "lib/netstandard2.0/SFML.Graphics.xml",
+        "sfml-icon.png",
+        "sfml.graphics.2.6.0.nupkg.sha512",
+        "sfml.graphics.nuspec"
+      ]
+    },
+    "SFML.Net/2.6.0": {
+      "sha512": "jnHJp7PPvZ0FdIZQZo63DW3ROrgVJktTzycjGzoX1HsZZTzj7ioMOXtsbR2AAggdTyk6vIhd61IqEpLO4DSd+Q==",
+      "type": "package",
+      "path": "sfml.net/2.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "sfml-icon.png",
+        "sfml.net.2.6.0.nupkg.sha512",
+        "sfml.net.nuspec"
+      ]
+    },
+    "SFML.System/2.6.0": {
+      "sha512": "XDNdNah0PKZElyYMAqWd8Kbe/XsJExkTxPY0txIrsTXEFIiRWhlkcYBBZmGkA6wvB5Ib7XH8QqE8s3BY8ZAzaQ==",
+      "type": "package",
+      "path": "sfml.system/2.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/netstandard2.0/SFML.System.dll",
+        "lib/netstandard2.0/SFML.System.xml",
+        "sfml-icon.png",
+        "sfml.system.2.6.0.nupkg.sha512",
+        "sfml.system.nuspec"
+      ]
+    },
+    "SFML.Window/2.6.0": {
+      "sha512": "C4FAnMI6adoNyc7gv33tIK9iYWuPxPUqQojLkhy2DTi4+3ZrlSNRDNZYc7V8Gaps3dOheGAP41/MJKSdTF8SZg==",
+      "type": "package",
+      "path": "sfml.window/2.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/netstandard2.0/SFML.Window.dll",
+        "lib/netstandard2.0/SFML.Window.xml",
+        "sfml-icon.png",
+        "sfml.window.2.6.0.nupkg.sha512",
+        "sfml.window.nuspec"
+      ]
+    },
     "Tmds.DBus/0.20.0": {
       "sha512": "zbWoimlpWKBIyc9JqNr26f0pnJ7W5M78XCks0J02qXEQykWzIgzR3ZCIO7yZyeqww+Oz2Jh+62GnkErNLyIG9w==",
       "type": "package",
@@ -36,6 +1281,12 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "GtkSharp >= 3.24.24.117-develop",
+      "SFML.Audio >= 2.6.0",
+      "SFML.Graphics >= 2.6.0",
+      "SFML.Net >= 2.6.0",
+      "SFML.System >= 2.6.0",
+      "SFML.Window >= 2.6.0",
       "Tmds.DBus >= 0.20.0"
     ]
   },
@@ -76,6 +1327,30 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "GtkSharp": {
+            "target": "Package",
+            "version": "[3.24.24.117-develop, )"
+          },
+          "SFML.Audio": {
+            "target": "Package",
+            "version": "[2.6.0, )"
+          },
+          "SFML.Graphics": {
+            "target": "Package",
+            "version": "[2.6.0, )"
+          },
+          "SFML.Net": {
+            "target": "Package",
+            "version": "[2.6.0, )"
+          },
+          "SFML.System": {
+            "target": "Package",
+            "version": "[2.6.0, )"
+          },
+          "SFML.Window": {
+            "target": "Package",
+            "version": "[2.6.0, )"
+          },
           "Tmds.DBus": {
             "target": "Package",
             "version": "[0.20.0, )"
