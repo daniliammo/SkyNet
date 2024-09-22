@@ -1,4 +1,4 @@
-using System.Drawing;
+using Cairo;
 
 
 namespace SkyNet;
@@ -6,7 +6,7 @@ namespace SkyNet;
 public class VisionObject()
 {
     
-    private readonly ObjectType _objectType;
+    public readonly ObjectType ObjectType;
     public required Transform Transform;
     public Color StrokeColor;
     // public byte Percents = 52;
@@ -18,7 +18,7 @@ public class VisionObject()
     
     public VisionObject(ObjectType objectType, Transform transform) : this()
     {
-        _objectType = objectType;
+        ObjectType = objectType;
         Transform = transform;
         
         CheckObject();
@@ -26,7 +26,7 @@ public class VisionObject()
 
     public VisionObject(ObjectType objectType, Transform transform, bool isAlly) : this()
     {
-        _objectType = objectType;
+        ObjectType = objectType;
         Transform = transform;
         _isAlly = isAlly;
         
@@ -35,7 +35,7 @@ public class VisionObject()
     
     private void CheckObject()
     {
-        switch (_objectType)
+        switch (ObjectType)
         {
             case ObjectType.Flashbang:
                 ProcessGadget();
@@ -95,21 +95,21 @@ public class VisionObject()
         }
         
         // Enemy
-        if(_objectType == ObjectType.Flashbang)
+        if(ObjectType == ObjectType.Flashbang)
         {
             StrokeColor = Config.GrenadeColor;
             CheckSize();
             return;
         }
 
-        if(_objectType == ObjectType.ImpactGrenade)
+        if(ObjectType == ObjectType.ImpactGrenade)
         {
             StrokeColor = Config.GrenadeColor;
             CheckSize();
             return;
         }
 
-        if(_objectType == ObjectType.FragGrenade)
+        if(ObjectType == ObjectType.FragGrenade)
         {
             StrokeColor = Config.GrenadeColor;
             CheckSize();
