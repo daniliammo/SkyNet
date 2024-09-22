@@ -16,7 +16,7 @@ public static class WindowController
         Application.Init();
 
         // Создаем окно с заголовком
-        var window = new Window($"SkyNet, Window backend: Gtk# v3, AI Backend: YOLOV10, Cython, Screenshot Backend: Gnome portal, C#, {SkyNet.SessionType}");
+        var window = new Window($"SkyNet, Window backend: Gtk# v3 and Cairo, AI Backend: YOLOV10, Cython, Screenshot Backend: Gnome portal, C#, {SkyNet.SessionType}");
         window.SetDefaultSize(800, 600);  // Уменьшите размер окна для тестирования
         window.DeleteEvent += delegate { Application.Quit(); };
 
@@ -60,7 +60,7 @@ public static class WindowController
 
         SkyNet.VisionObjects =
         [
-            new VisionObject(ObjectType.Ally, new Transform(new Vector2(500, 356), new Vector2(100, 52)))
+            new VisionObject(ObjectType.Ally, new Transform(new Vector2(0, 0), new Vector2(0, 0)))
             {
                 Transform = new Transform(new Vector2(760, 456), new Vector2(50, 180))
             }
