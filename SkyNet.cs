@@ -7,7 +7,7 @@ public static class SkyNet
 
     public static VisionObject[]? VisionObjects;
     
-
+    
     private static void PrepareForStart()
     {
         SessionType = GetSessionType();
