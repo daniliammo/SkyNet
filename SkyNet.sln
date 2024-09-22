@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkyNet", "SkyNet\SkyNet.csproj", "{F824D686-44DC-4973-B1E6-38EC5792436D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkyNet", "SkyNet.csproj", "{F824D686-44DC-4973-B1E6-38EC5792436D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
