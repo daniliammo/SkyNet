@@ -18,7 +18,6 @@ public static class WindowController
         // Создаем окно с заголовком
         var window = new Window($"SkyNet, Window backend: Gtk# v3, AI Backend: YOLOV10, Cython, Screenshot Backend: Gnome portal, C#, {SkyNet.SessionType}");
         window.SetDefaultSize(800, 600);  // Уменьшите размер окна для тестирования
-        window.SetPosition(WindowPosition.Center);
         window.DeleteEvent += delegate { Application.Quit(); };
 
         // Настройка параметров окна
@@ -32,14 +31,6 @@ public static class WindowController
 
         // Добавление KeyPressEvent
         window.KeyPressEvent += KeyPressed;
-
-        // Настройка контейнера
-        var fixedContainer = new Fixed();
-        window.Add(fixedContainer);
-        
-        var button = new Button("button1");
-        button.SetSizeRequest(52, 52);
-        fixedContainer.Put(button, 52, 52);
         
         window.ShowAll();
         Application.Run();
@@ -59,7 +50,7 @@ public static class WindowController
     private static void ExposeDraw(object sender, DrawnArgs args)
     {
         _widget = sender as Widget;
-        _context = Gdk.CairoHelper.Create(_widget.GdkWindow);
+        _context = Gdk.CairoHelper.Create(_widget!.Window);
 
         // Установим прозрачный фон
         _context.SetSourceRGBA(0.0, 0.0, 0.0, 0.0);
