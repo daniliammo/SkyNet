@@ -19,3 +19,4 @@ public static class Config
     public static readonly byte Fps = 165;
     
 }
+
