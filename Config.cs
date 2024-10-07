@@ -23,3 +23,4 @@ public static class Config
     public const bool ImageResizing = true;
     public const string PathToOnnxModel = "/home/daniliammo/RiderProjects/SkyNet/SkyNet/yolov10b/onnx/model_quantized.onnx";
 }
+
