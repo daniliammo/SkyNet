@@ -1,7 +1,7 @@
 namespace SkyNet;
 
-public class Vector2(uint x, uint y)
+public class Vector2(int x, int y)
 {
-    public uint X = x;
-    public uint Y = y;
+    public int X = x;
+    public int Y = y;
 }
