@@ -1,4 +1,4 @@
-namespace SkyNet;
+namespace SkyNet.Vision.Objects;
 
 public enum ObjectType
 {
@@ -6,6 +6,8 @@ public enum ObjectType
     Enemy,
     EnemyHead,
     DeadEnemy,
+    
+    SniperFlashlight,
     
     Ally,
     AllyHead,
@@ -93,6 +95,13 @@ public enum ObjectType
     AntiVehicleMine,
     AntiPersonnelMine,
     Claymore,
-    AntiGrenadeTrophy
+    AntiGrenadeTrophy,
+    #endregion
+
+    #region Lasers
+
+    GreenLaser,
+    RedLaser
+
     #endregion
 }

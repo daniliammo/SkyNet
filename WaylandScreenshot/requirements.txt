@@ -1,0 +1,4 @@
+gstreamer-python @ git+https://github.com/jackersson/gstreamer-python.git@c8d4e04e1cdeb3b284641b981afcf304f50480db
+numpy~=2.1.1
+opencv-python==4.10.0.82
+vidgear==0.2.6

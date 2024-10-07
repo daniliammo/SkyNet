@@ -4,7 +4,7 @@
         <OutputType>Exe</OutputType>
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
+        <Nullable>disable</Nullable>
         <DefineConstants>LINUX</DefineConstants>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     </PropertyGroup>
@@ -25,12 +25,12 @@
 
     <ItemGroup>
       <PackageReference Include="GtkSharp" Version="3.24.24.117-develop" />
-      <PackageReference Include="SFML.Audio" Version="2.6.0" />
-      <PackageReference Include="SFML.Graphics" Version="2.6.0" />
-      <PackageReference Include="SFML.Net" Version="2.6.0" />
-      <PackageReference Include="SFML.System" Version="2.6.0" />
-      <PackageReference Include="SFML.Window" Version="2.6.0" />
-      <PackageReference Include="Tmds.DBus" Version="0.20.0" />
+      <PackageReference Include="SixLabors.ImageSharp" Version="3.1.5" />
+      <PackageReference Include="YoloV8.Gpu" Version="5.0.4" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Yolo\" />
     </ItemGroup>
     
 </Project>

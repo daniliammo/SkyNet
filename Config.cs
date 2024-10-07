@@ -4,6 +4,7 @@ namespace SkyNet;
 
 public static class Config
 {
+    #region Rendering
     #region Colors
     public static readonly Color AllyGadgetsColor = new (0, 255, 255); // rgb(0, 255, 255)
     public static readonly Color EnemyGadgetsColor = new (210, 105, 30); // rgb(210, 105, 30)
@@ -15,7 +16,10 @@ public static class Config
     
     public static readonly Color CrosshairColor = new(0, 255, 127); // rgb(0, 255, 127)
     public const bool DrawCrosshair = true;
+    #endregion
 
-    public static readonly byte Fps = 165;
-    
+    public const ushort Port = 5254;
+    public const float ScaleFactor = 4.75f;
+    public const bool ImageResizing = true;
+    public const string PathToOnnxModel = "/home/daniliammo/RiderProjects/SkyNet/SkyNet/yolov10b/onnx/model_quantized.onnx";
 }
