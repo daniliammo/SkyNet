@@ -1,7 +1,6 @@
 using SkyNet.Vision.Objects;
 using  Compunet.YoloV8;
 using Compunet.YoloV8.Data;
-using Microsoft.ML.OnnxRuntime;
 using SixLabors.ImageSharp;
 using SkyNet.Vision;
 
@@ -16,13 +15,13 @@ public static class SkyNet
     public static List<VisionObject> VisionObjects = [];
 
     private static YoloPredictor _yoloPredictor;
-    
+
     
     public static void Init()
     {
         SessionType = GetSessionType();
         LoadYoloPredictor(Config.PathToOnnxModel);
-        new Thread(Start).Start();
+        Start();
     }
 
     private static void LoadYoloPredictor(string modelPath)
