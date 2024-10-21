@@ -1,5 +1,5 @@
 using SkyNet.Vision.Objects;
-using  Compunet.YoloV8;
+using Compunet.YoloV8;
 using Compunet.YoloV8.Data;
 using SixLabors.ImageSharp;
 using SkyNet.Vision;
