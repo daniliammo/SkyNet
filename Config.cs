@@ -18,6 +18,7 @@ public static class Config
     public const bool DrawCrosshair = true;
     #endregion
 
+    public const byte FontSize = 32;
     public const ushort Port = 5254;
     public const float ScaleFactor = 4.75f;
     public const bool ImageResizing = true;

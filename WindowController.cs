@@ -32,7 +32,6 @@ public static class WindowController
         window.DeleteEvent += delegate { Application.Quit(); };
         window.DeleteEvent += delegate { WaylandScreenshot.Stop(); };
         
-        
         // Настройка параметров окна
         window.AppPaintable = true;
         
@@ -123,7 +122,7 @@ public static class WindowController
     {
         _context!.NewPath();
         // Установить шрифт и размер
-        _context!.SetFontSize(32); // Размер шрифта 
+        _context!.SetFontSize(Config.FontSize); // Размер шрифта 
         _context.MoveTo(position.X, position.Y); // Позиция для текста
     
         // Получить ширину текста для центрирования
