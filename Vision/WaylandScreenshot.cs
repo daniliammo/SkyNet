@@ -8,8 +8,8 @@ public static class WaylandScreenshot
 {
 
     private static Thread _thread;
-    private static Socket socket;
-    public static bool isRunning;
+    private static Socket _socket;
+    private static bool _isRunning;
 
     private static readonly byte[] ExitSequence = "IEND"u8.ToArray(); // PNG End
 
@@ -19,21 +19,21 @@ public static class WaylandScreenshot
         // Запускаем сервер в отдельном потоке
         _thread = new Thread(StartTcpServer);
         _thread.Start();
-        isRunning = true;
+        _isRunning = true;
     }
 
     private static async void StartTcpServer()
     {
-        socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.IP);
+        _socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.IP);
         
-        socket.Bind(new IPEndPoint(IPAddress.Parse("127.0.0.1"), Config.Port));
-        socket.Listen();    // запускаем сервер
+        _socket.Bind(new IPEndPoint(IPAddress.Parse("127.0.0.1"), Config.Port));
+        _socket.Listen();    // запускаем сервер
         Console.WriteLine("Сервер запущен. Ожидание подключений... ");
 
-        while (isRunning)
+        while (_isRunning)
         {
             // Получаем подключение в виде TcpClient
-            var tcpClient = await socket.AcceptAsync();
+            var tcpClient = await _socket.AcceptAsync();
             _ = HandleClientAsync(tcpClient); // Обрабатываем клиента асинхронно
         }
     }
@@ -81,7 +81,7 @@ public static class WaylandScreenshot
 
     public static void Stop()
     {
-        isRunning = false;
+        _isRunning = false;
         _thread.Join(); // Дождаться завершения потока сервера
         // socket.Shutdown(SocketShutdown.Receive);
         // socket.Dispose();
