@@ -25,7 +25,7 @@
 
     <ItemGroup>
       <PackageReference Include="GtkSharp" Version="3.24.24.117-develop" />
-      <PackageReference Include="SixLabors.ImageSharp" Version="3.1.5" />
+      <PackageReference Include="SixLabors.ImageSharp" Version="3.1.7" />
       <PackageReference Include="YoloV8.Gpu" Version="5.1.0" />
     </ItemGroup>
 
